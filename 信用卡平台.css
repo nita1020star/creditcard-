@@ -1,0 +1,259 @@
+/* 基本樣式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    background-color: #0078D4;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .logo-container {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* 首頁樣式 */
+  .home-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 最新消息樣式 */
+  .news-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .news-item h3 {
+    color: #0078D4;
+  }
+  
+  .news-item p {
+    margin: 10px 0;
+  }
+  
+  .read-more {
+    color: #0078D4;
+    text-decoration: none;
+  }
+  
+  /* AI推薦樣式 */
+  .ai-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ai-form {
+    margin-top: 15px;
+  }
+  
+  .ai-form label {
+    font-weight: bold;
+  }
+  
+  .ai-form select {
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  .ai-form button {
+    padding: 5px 15px;
+    background-color: #0078D4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ai-form button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* 多卡比較樣式 */
+  .comparison-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .comparison-table th {
+    background-color: #0078D4;
+    color: #fff;
+  }
+  
+  .comparison-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* 討論區樣式 */
+  .discussion-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .discussion-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .discussion-item {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .discussion-item h3 a {
+    text-decoration: none;
+    color: #0078D4;
+  }
+  
+  .tags {
+    margin: 10px 0;
+  }
+  
+  .tag {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  /* 標籤顏色 */
+  .tag.travel {
+    background-color: #FF5733; /* 橙色 */
+  }
+  
+  .tag.cashback {
+    background-color: #28B463; /* 綠色 */
+  }
+  
+  /* 頁腳樣式 */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0078D4;
+    color: #fff;
+  }
+  
+  /* 新增樣式（來自 STYLES.css） */
+  
+  /* 表單樣式 */
+  form {
+    margin: 15px 0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0078D4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005bb5;
+  }
+  
+  /* 表格樣式 */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0078D4;
+    color: #fff;
+  }
